@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Guessing Game</title>
+    <link rel="stylesheet" href="css/diceGuessing.css" />
+  </head>
+  <body>
+    <h1>DICE GUESSING GAME</h1>
+    <div id="container">
+      <div id="input-button-container">
+        <label for="numberDropdown">Select your guess:</label>
+        <select id="numberDropdown" name="numberDropdown">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+
+        <button id="roll-button">ROLL</button>
+      </div>
+      <h3 id="score">Score: 0</h3>
+      <div id="dice-result-container">
+        <h3 id="player-guess-result"></h3>
+        <div id="image-container"></div>
+        <h3 id="number-result"></h3>
+      </div>
+    </div>
+
+    <div id="socials">
+      <div>
+        <a href="https://www.facebook.com/sydney.santos.7773/">
+          <img id="facebook" src="images/socials/facebook.png" alt="" />
+        </a>
+        <a href="https://www.instagram.com/lvrbysyd_/">
+          <img id="instagram" src="images/socials/social.png" alt="" />
+        </a>
+        <a href="https://github.com/Syddevv">
+          <img id="github" src="images/socials/github.png" alt="" />
+        </a>
+        <a href="https://www.tiktok.com/@sydlvrby"
+          ><img id="tiktok" src="images/socials/tik-tok.png" alt=""
+        /></a>
+      </div>
+      <p>Developed by Sydney Santos</p>
+    </div>
+    <script src="js/diceGuessing.js"></script>
+  </body>
+</html>
