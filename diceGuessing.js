@@ -21,5 +21,5 @@ rollButton.addEventListener("click", () => {
   diceResult.textContent = `Result: ${randomDice}`;
   scoreDisplay.textContent = `Score: ${score}`;
 
-  imageContainer.innerHTML = `<img id="image-result" src="images/dice/${randomDice}.png" alt="" />`;
+  imageContainer.innerHTML = `<img id="image-result" src="dice/${randomDice}.png" alt="" />`;
 });
